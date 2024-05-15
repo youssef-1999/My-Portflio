@@ -1,0 +1,14 @@
+.icons i
+{
+    transition: all 0.5s;
+   
+}
+.icons 
+{
+   margin-right: 10px;
+
+}
+.icons:hover i
+{
+    color: brown;
+}

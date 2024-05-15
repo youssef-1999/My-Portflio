@@ -1,0 +1,13 @@
+.active
+{
+    font-weight: 900;
+   border-radius: 25px;
+   color: white;
+   background-color: #1abc9c;
+   padding: 2px;
+}
+
+.branding
+{
+    background-color: transparent;
+}
