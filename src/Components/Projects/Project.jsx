@@ -32,6 +32,10 @@ import img30 from './images/devfolio5.png'
 import img31 from './images/devfolio6.png'
 import img32 from './images/devfolio7.png'
 import img33 from './images/devfolio8.png'
+import 'aos/dist/aos.css'
+ import Aos from 'aos'
+import { useEffect } from 'react'
+
 
 function Project() {
 
@@ -39,6 +43,10 @@ function Project() {
         img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,img14,img15,img16,img17,img18,img19,img20,
         img21,img22,img23,img24,img25,img26,img27,img28,img29,img30,img31,img32,img33
     ]
+    useEffect( ()=>
+    {
+      Aos.init()
+    },[] )
     
   return (
     <div className="container py-2  mt-4">
@@ -49,7 +57,7 @@ function Project() {
                 return <div className="col-md-4 mb-4">
                   <div className="test rounded rounded-3 g-2  mb-4">
 
-                    <img src={img} alt="" key={index} className='w-100' />
+                    <img src={img} alt="" data-aos="fade-left" key={index} className='w-100' />
                   </div>
                 </div>
             } )
