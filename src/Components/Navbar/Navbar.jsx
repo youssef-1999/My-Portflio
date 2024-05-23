@@ -3,6 +3,7 @@ import './Navbar.css'
 import { NavLink } from 'react-router-dom'
 
 function Navbar() {
+
   return (
       <nav className="navbar  navbar-expand-lg bg-dark fixed-top top-0">
         <div className="container">
@@ -23,7 +24,7 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink className="nav-link  me-2  text-white " to="projects">
+                <NavLink className="nav-link  me-2  text-white "  to="projects">
                   Projects
                 </NavLink>
               </li>

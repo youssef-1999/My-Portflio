@@ -1,0 +1,10 @@
+.Icons
+{
+    position: fixed;
+    bottom: 20%;
+    right: 2%;
+    color: tomato;
+    font-size: 2rem;
+    z-index: 9999;
+    cursor: pointer;
+}
